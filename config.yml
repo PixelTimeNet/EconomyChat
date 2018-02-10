@@ -1,0 +1,25 @@
+# 经济聊天 EconomyChat 插件
+# 作者：Month_Light
+
+# 插件版本号
+version: 1.0
+
+# 插件的前缀
+Prefix: '&f[&2经济聊天&f] '
+
+# 插件消息配置
+Messages:
+    # 注意可以修改文本，但是不要修改里面的格式符 %1$s，%2$s 等
+    NoPermission: '&c你没有使用这个命令的权限.'
+    ErrorCommandArgs: '&c未知的命令参数，请使用: %1$s'
+    EconomyChatReload: '&a配置文件已经重新载入...'
+    EconomyChatCancelled: '&c由于您的经济账户不足够 &a%1$s &c所以无法发言.'
+    EconomyChatConsume: '&6已从您的经济账户收走 &a%1$s &6由于聊天.'
+
+# 当玩家大于或等于这个值时才能够进行发言
+# 值为 0 则不开启功能
+LimitEconomy: 0
+
+# 是否开启发言经济消耗功能
+# 也就是当玩家发言并且进行减少上面的值
+Consume: false
